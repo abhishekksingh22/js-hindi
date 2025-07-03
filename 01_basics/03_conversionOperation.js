@@ -30,6 +30,8 @@ let someNumber=33
 let Stringnumber=String(someNumber);
 console.log(Stringnumber);
 console.log(typeof Stringnumber);
+console.log(typeof Stringnumber);
+
 
 
 
