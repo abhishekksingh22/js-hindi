@@ -70,6 +70,7 @@ gamecounter++;
 console.log(gamecounter);
 ++gamecounter;
 console.log(gamecounter);
+console.log(gamecounter);
 
 
 
