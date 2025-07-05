@@ -28,9 +28,45 @@
 
 let someNumber=33
 let Stringnumber=String(someNumber);
-console.log(Stringnumber);
-console.log(typeof Stringnumber);
-console.log(typeof Stringnumber);
+// console.log(Stringnumber);
+// console.log(typeof Stringnumber);
+// console.log(typeof Stringnumber);
+
+//*********** Operations***************//
+
+let vaule=3
+let negVaule=-vaule 
+//console.log(negVaule);
+
+// console.log(2+2);
+// console.log(2-2);
+// console.log(2*2);
+// console.log(2**2);//2 power 2
+// console.log(2**3);//2 power 3
+// console.log(2/2);
+// console.log(2%2);
+
+let str1="hello"
+let str2=" hitesh"
+
+let str3 =  str1 + str2
+console.log(str3);
+
+console.log("1"+2);
+console.log(1+"2");
+console.log("1"+"2");
+console.log("1"+2+2);
+console.log(1+2+"2");
+
+
+
+
+
+
+
+
+
+
 
 
 
