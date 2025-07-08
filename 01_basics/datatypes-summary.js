@@ -38,3 +38,24 @@ const myFunction =function()
 console.log(typeof bigNumber);
 console.log(typeof outsideTemp);
 
+//+++++++++++++++++++++++++++++++++++++++++
+
+//stack(primitive), Heap(non-primitive ) 
+
+let myYoutubename="sintukumarsingh "
+let anothername=myYoutubename; 
+anothername="chaiandcode "
+console.log(anothername);
+console.log(myYoutubename);
+
+
+let userOne={      //non primitive types
+    email:"abhisheksingh22595@gmail.com", 
+    user: "abcd@ybl"
+}
+let userTwo=userOne
+
+userTwo.email="aryan@4577";
+console.log(userOne.email);
+console.log(userTwo.email);
+
