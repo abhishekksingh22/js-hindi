@@ -12,8 +12,8 @@ let userEmail;
 const id=Symbol('123')
 const anotherId=Symbol('123')
 
-console.log(id==anotherId);
-const BigNumber=1511318541331135n
+//console.log(id==anotherId);
+const bigNumber=3456543576654356754n
 
 
 
@@ -21,7 +21,7 @@ const BigNumber=1511318541331135n
 //Reference (Non primitive)
 
 //Array,Objects,Functions
-const heroes[]=["shaktiman","naagraj","doga"]
+const heroes =["shaktiman","naagraj","doga"]
 let myobj= {
     name:"sintu",
     age:20
@@ -34,3 +34,7 @@ const myFunction =function()
     
 
 }
+
+console.log(typeof bigNumber);
+console.log(typeof outsideTemp);
+
