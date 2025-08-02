@@ -60,3 +60,15 @@ handleObject({
     username:"sintu",
     price:299
 })
+
+const mynewArr=[200,300,400,500]
+
+function returnSecondVaule(anyArr)
+{
+    return anyArr[1];
+
+}
+const svaule=returnSecondVaule(mynewArr)
+console.log(svaule);
+
+
