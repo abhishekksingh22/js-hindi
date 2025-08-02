@@ -25,10 +25,18 @@ function addTwoNumbers(number1,number2)
 const r= addTwoNumbers(7,8);
 //console.log("result",r);
 
-function loginUserMessage()
-{
-    return '${} just logged  '
+function loginUserMessage(username="sam") {
+    if(!username)
+    {
+        console.log("please enter your username");
+        return;
+        
+
+    }
+  return `${username} just logged in`;
 }
+// console.log(loginUserMessage("hitesh"));
+ console.log(loginUserMessage());
 
 
 
