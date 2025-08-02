@@ -15,7 +15,13 @@ saveMyname(); //calling the functions
 
 function addTwoNumbers(number1,number2)
 {
-    number1+number2
-
+    let result=number1+number2;
+    return result;
+    
 }
+
+const r= addTwoNumbers(7,8);
+console.log("result",r);
+
+
 
