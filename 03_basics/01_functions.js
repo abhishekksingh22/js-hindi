@@ -68,7 +68,10 @@ function returnSecondVaule(anyArr)
     return anyArr[1];
 
 }
-const svaule=returnSecondVaule(mynewArr)
-console.log(svaule);
+// const svaule=returnSecondVaule(mynewArr)
+// console.log(svaule);
+console.log(returnSecondVaule([1000,2000,3000,4000]));
+
+
 
 
