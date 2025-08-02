@@ -15,6 +15,7 @@ saveMyname(); //calling the functions
 
 function addTwoNumbers(number1,number2)
 {
-    
+    number1+number2
+
 }
 
