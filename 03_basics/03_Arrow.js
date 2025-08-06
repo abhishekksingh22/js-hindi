@@ -36,4 +36,18 @@ const chaii=()=>
     let username="hitesh"
         console.log(this.username);
 }
-chaii();
+//chaii();
+
+// const addTwo=(num1,num2)=>{
+//     return num1+num2  //explicit return
+// }
+// console.log(addTwo(9,12));
+
+// const addTwo=(num1,num2)=> num1+num2 //implicit return (num1+num2)
+// const addTwo=(num1,num2)=> (num1+num2) //implicit return 
+const addTwo=(num1,num2)=> ({username:"hitesh"})
+
+
+console.log(addTwo(9,12));
+const myArr=[2,3,4,5,6];
+myArr.forEach(function(){})
