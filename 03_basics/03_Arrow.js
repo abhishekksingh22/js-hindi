@@ -9,6 +9,31 @@ const user={
         
     }
 }
-user.welcomeMessage();
-user.username="sintu"
-user.welcomeMessage();
+// user.welcomeMessage();
+// user.username="sintu"
+// user.welcomeMessage();
+
+//
+//console.log(this);
+
+// function chai()
+// {
+//     let username="hitesh"
+//     console.log(this.username);
+    
+// }
+// chai();
+
+const chai=function()
+{
+    let username="hitesh"
+        console.log(this);
+}
+//chai();
+
+const chaii=()=>
+{
+    let username="hitesh"
+        console.log(this);
+}
+chaii();
