@@ -24,16 +24,16 @@ const user={
 // }
 // chai();
 
-const chai=function()
-{
-    let username="hitesh"
-        console.log(this);
-}
-//chai();
+// const chai=function()
+// {
+//     let username="hitesh"
+//         console.log(this);
+// }
+// chai();
 
 const chaii=()=>
 {
     let username="hitesh"
-        console.log(this);
+        console.log(this.username);
 }
 chaii();
