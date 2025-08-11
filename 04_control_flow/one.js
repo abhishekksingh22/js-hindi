@@ -38,4 +38,9 @@
 // }
 
 const isUserloggedIn=true;
-const deb
+const debitCard=true;
+if(isUserloggedIn && debitCard)
+{
+    console.log("allow to buy clothes");
+    
+}
