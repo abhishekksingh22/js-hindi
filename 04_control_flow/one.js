@@ -39,8 +39,19 @@
 
 const isUserloggedIn=true;
 const debitCard=true;
-if(isUserloggedIn && debitCard)
+
+if(isUserloggedIn && debitCard) //both condition should be true
 {
+
     console.log("allow to buy clothes");
     
 }
+const logInFromGoogle=true;
+const logInFromEmail=false;
+if(logInFromGoogle||logInFromEmail) //any one condition should be true
+{
+    console.log("user logged in"); 
+    
+}
+
+
